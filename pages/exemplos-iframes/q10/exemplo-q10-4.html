@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <title>Documento HTML</title>
+  <style>
+    .verde {
+      color: green;
+    }
+
+    .azul {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Web dev book</h1>
+  <button id="verde">Título Verde</button>
+  <button id="azul">Título Azul</button>
+  
+  <script>
+    const elementoTitulo = document.querySelector('#titulo')
+    const elementoBtnVerde = document.querySelector('#verde')
+    const elementoBtnAzul = document.querySelector('#azul')
+
+    elementoBtnVerde.addEventListener('click', () => {
+    elementoTitulo.classList.toggle('verde')
+    })
+
+    elementoBtnAzul.addEventListener('click', () => {
+    elementoTitulo.classList.toggle('azul')
+    })
+  </script>
+</body>
+</html>

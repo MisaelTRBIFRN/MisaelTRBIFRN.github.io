@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao JavaScript - Autoria WEB</title>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="logos">
+            <a href="index.html">
+                <img src="assets/images/icons/html5-logo.svg" alt="html5-logo">
+            </a>
+            <a href="index.html">
+                <img src="assets/images/icons/css3-logo.svg" alt="css3-logo">
+            </a>
+            <a href="index.html">
+                <img src="assets/images/icons/javascript-logo.svg" alt="javascript-logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="ul-left">
+                <li style="padding: 0px 83px; margin-bottom: -10px;"><a href="#respostas" class="a-quest">Respostas</a></li>
+                <li style="border-bottom-left-radius: 20px;"><a href="#api-geo" class="a-quest">API Geolocalização</a></li>
+            </ul>
+            <ul class="ul-right">
+                <li style="border-top-left-radius: 20px;"><a href="#quest1" class="a-quest">Questão 1</a></li>
+                <li><a href="#quest2" class="a-quest">Questão 2</a></li>
+                <li><a href="#quest3" class="a-quest">Questão 3</a></li>
+                <li><a href="#quest4" class="a-quest">Questão 4</a></li>
+                <li><a href="#quest5" class="a-quest">Questão 5</a></li>
+                <li><a href="#quest6" class="a-quest">Questão 6</a></li>
+                <li><a href="#quest7" class="a-quest">Questão 7</a></li>
+                <li><a href="#quest8" class="a-quest">Questão 8</a></li>
+                <li><a href="#quest9" class="a-quest">Questão 9</a></li>
+                <li><a href="#quest10" class="a-quest">Questão 10</a></li>
+                <li><a href="#quest11" class="a-quest">Questão 11</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <a href="#top" class="top-btn">
+        <img src="assets/images/icons/arrow-right-icon.svg" alt="arrow-right-icon">
+    </a>
+    <a href="#footer" class="bottom-btn">
+        <img src="assets/images/icons/arrow-right-icon.svg" alt="arrow-right-icon">
+    </a>
+
+    <div class="theme-box" id="theme">
+        <div class="circle"></div>
+        <img src="assets/images/icons/sun-icon.svg" alt="sun-icon" class="sun-icon">
+        <img src="assets/images/icons/moon-icon.svg" alt="moon-icon" class="moon-icon">
+    </div>
+
+    <main>
+        <section id="respostas">
+            <article class="respostas-content">
+                <h2>Respostas</h2>
+                <div class="respostas-main">
+                    <!-- QUESTÃO 1 -->
+                    <div class="top-respostas-questoes" id="quest1" style="padding: 10px 20px 10px 14px">
+                        <img src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 1</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3>O Que é JavaScript?</h3>
+                        <p class="respostas-p">
+                            O JS ou JavaScript é uma linguagem de programação de alto-nível, criada no meio da década de 90, mais precisamente em 1996 pelo lendário programador Brendan Eich que, além de criar o JavaScript, foi também um dos fundadores da Mozilla Corporation.
+    
+                            Ele criou a linguagem quando ainda trabalhava na Netscape Communications Corporation, originalmente criado para funcionar no navegador Netscape Navigator, seu objetivo era facilitar processos dentro de páginas web, tornado a programação de animações e alertas muito mais simples.
+    
+                            Pouco tempo depois, cerca de 1 ano depois do seu lançamento, a Microsoft começou a aceitar esta linguagem em seu navegador da época, o que foi um dos grandes impulsionadores para consolidar o que é Javascript como uma das principais linguagens de programação dos dias de hoje.
+    
+                            Desse tempo para cá, o JScript vem sofrendo diversas funções e aplicações diferentes, ficando mais versátil e completo de acordo com o tempo. Hoje, por exemplo, já é possível usar Javascript para criar aplicativos Desktop e Mobile, não só aplicações baseadas em web e navegadores.
+                        </p>
+
+                        <h3>Onde ele pode ser utilizado em aplicações web?</h3>
+                        <p class="respostas-p">
+                            o JavaScript foi criado como uma linguagem de programação client-side. No início dos anos 2000 a empresa Google resolveu adotar esta linguagem para desenvolver algumas de suas aplicações como, por exemplo, o Gmail, mas existia um problema, os interpretadores de JS que os navegadores possuíam na época eram muito lentos. 
+
+                            Para resolver esta situação, a companhia desenvolveu o Engine V8, uma engine de JS open-source que veio como padrão no navegador Google Chrome e, por ser open-source e ter um alto desempenho, em pouco tempo foi adotada pelo mercado. 
+                            Graças ao Engine V8 e as novas proporções que o JS tomou, foram desenvolvidas diversas plataformas em cima desta linguagem.
+
+                            Uma das mais importantes é a Node.js, que abriu novas portas para o que é Javascript, permitindo agora a criação também de aplicações server-side, abrindo um novo e imenso leque para os desenvolvedores que escreviam programas nesta linguagem.
+
+                            Com a plataforma Node.js, é possível criar aplicações em servidor web e linha de comando usando JS.
+
+                            Sendo aplicado, como citado, em: jogos; no mobile e desktop; etc.
+                        </p>
+
+                        <h3>Explique a função do HTML, do CSS e <br> do JavaScriptem uma página web.</h3>
+                        <p class="respostas-p">
+                            Javascript é a terceira camada do bolo de desenvolvimento web e front-end, junto com HTML, CSS e PHP.
+
+                            O HTML – É uma linguagem de marcação que serve para dar significado e estrutura ao conteúdo web, como, por exemplo, definir cabeçalhos, parágrafos, fazer referências ou inserir imagens e vídeos.
+
+                            O CSS – É uma linguagem de folha de estilos, que tem o papel de tornar uma página apresentável na web, relacionada diretamente com o design e aparência.
+
+                            O JavaScript – É uma linguagem de programação de comportamento que permite a criação de conteúdos dinâmicos, controle de mídias e animações para deixar seu site mais interativo e interessante.
+
+                            Ou seja: O HTML é o corpo (estrutura) 🩻; O CSS é o visual ("roupa") 👫; O JavaScript é a funcionalidade (mente) 🧠
+                        </p>
+
+                        <a href="https://www.hostinger.com.br/tutoriais/o-que-e-javascript" target="_blank" class="link-respost">https://www.hostinger.com.br/tutoriais/o-que-e-javascript</a>
+                    </div>
+
+                    <!-- QUESTÃO 2 -->
+                    <div class="top-respostas-questoes" id="quest2">
+                        <img src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 2</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">Uma das vantagens do JavaScript é a possibilidade de trabalhar com APIs desenvolvidas por outros programadores, as quais oferecem funcionalidades úteis que podem ser incorporadas às aplicações web. Neste contexto, o que são APIs? Cite pelo menos três exemplos de APIs JavaScript que são bastante utilizadas, descrevendo o que elas permitem realizar.</h3>
+
+                        <h3 style="margin-top: 20px;">O que são APIs?</h3>
+                        <p class="respostas-p">
+                            Uma API é uma interface de comunicação que permite que dois componentes de software separados compartilhem dados . Uma API opera como uma ponte entre operações de software internas e externas, permitindo uma troca fluida de dados que frequentemente passam despercebidos pelo usuário final.
+                            Simplificando, uma API atua como um intermediário virtual, transferindo dados de uma interface, como um aplicativo móvel, para outra. As APIs conectam várias seções de uma plataforma de software para garantir que as informações sejam enviadas corretamente. Esses pontos de conexão servem como uma rota de comunicação interna e uma maneira para ferramentas externas acessarem os mesmos dados. Como resultado, as APIs podem ser classificadas em dois tipos:
+                            APIs privadas: Uma API privada está disponível apenas para desenvolvedores e usuários dentro de uma empresa. Essas APIs são frequentemente usadas para vincular operações internas de equipe para remover silos e otimizar a comunicação.
+                            APIs abertas: Por outro lado, APIs abertas permitem que desenvolvedores terceirizados acessem e mesclem dados de uma ferramenta para outra rapidamente. Uma API aberta ou pública economiza tempo para desenvolvedores, permitindo que eles vinculem sua plataforma a ferramentas já existentes, minimizando a necessidade de construir novos serviços.
+                        </p>
+
+                        <h3>Trechos do clima</h3>
+                        <p class="respostas-p">
+                            Dados meteorológicos são um exemplo popular de API que encontramos regularmente. Rich snippets meteorológicos aparecem onipresentes, aparecendo em todas as plataformas, como o Google Search, o aplicativo Weather da Apple e até mesmo seu dispositivo doméstico inteligente. Por exemplo, se você pesquisar no Google "clima + [nome da sua cidade]", verá uma caixa especializada no topo dos resultados da pesquisa (conhecida como rich snippet) contendo as condições climáticas atuais e a previsão.
+
+                            <br><br>
+
+                            O Google não está no negócio de dados meteorológicos (ainda!), então eles os obtêm de terceiros. Eles fazem isso usando uma API, que os alimenta com as informações meteorológicas mais recentes em um formato que eles podem modificar facilmente. Como dito anteriormente, várias APIs meteorológicas alimentam esse tipo de funcionalidade.
+                        </p>
+
+                        <h3>Faça login usando XYZ</h3>
+                        <p class="respostas-p">
+                            Outro exemplo de uso de API bem conhecido é o recurso "log in with Facebook/Twitter/Google/GitHub" visto em muitos sites. É bem útil, mas você já pensou em como ele funciona? Em vez de entrar nas contas de mídia social dos usuários (o que seria um risco de segurança grave), os aplicativos com esse recurso usam as APIs dessas plataformas para autenticar o usuário a cada login.
+
+                            <br><br>
+
+                            Ele opera de forma direta. Quando o programa carrega, ele verifica a API para ver se o usuário já está logado em qualquer plataforma de rede social. Caso contrário, quando o usuário clica no botão "Log-in Using XYZ", um pop-up aparece pedindo para ele confirmar que realmente quer fazer login com aquele perfil de rede social. Quando o usuário confirma, a API envia informações de identidade para o aplicativo, informando quem está fazendo login.
+                        </p>
+
+                        <h3>Pague com PayPal</h3>
+                        <p class="respostas-p">
+                            Você já usou o PayPal para comprar diretamente de uma loja de comércio eletrônico? Isso também é uma API em ação. A funcionalidade "Pagar com PayPal", como fazer check-in em um site de rede social, é feita por meio de APIs para garantir que o aplicativo final possa fazer apenas o que precisa ser feito sem ser exposto a dados confidenciais ou obter acesso a privilégios indesejados.
+
+                            <br><br>
+
+                            O funcionamento interno desse recurso útil é bem parecido com o procedimento de login discutido acima. Quando um usuário seleciona o botão "Pagar com PayPal", o aplicativo faz uma solicitação de "pedido" para a API do PayPal, contendo o valor devido e outras informações críticas. O usuário é então autenticado, e sua compra é confirmada por meio de um pop-up. Finalmente, a API retorna a confirmação do pagamento para o aplicativo se tudo ocorrer conforme o planejado.
+                        </p>
+
+                        <a href="https://www.turing.com/kb/7-examples-of-apis" target="_blank" class="link-respost">https://www.turing.com/kb/7-examples-of-apis</a>
+                    </div>
+
+                    <!-- QUESTÃO 3 -->
+                    <div class="top-respostas-questoes" id="quest3">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 3</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">O que é o Document Object Model (DOM) de uma página web? O que é uma árvore DOM? Descreva a função dos seguintes métodos de um documento: getElementById(), getElementsByTagName(), geElementsByClassName(), querySelector() e querySelectorAll().</h3>
+
+                        <h3 style="margin-top: 20px;">O que é o Document Object Model (DOM) de uma página web e o que é uma árvore DOM?</h3>
+                        <p class="respostas-p">
+                            A sigla DOM significa Document Object Model, que em português significa Modelo de Documento por Objetos. Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web.
+
+                            <br><br>
+
+                            O DOM oferece um modelo de representação e interação do documento HTML ou XML. Esse modelo se estrutura em formato de árvore, com vários galhos que indicam diferentes elementos da página. Quando esse modelo é alterado através da linguagem de script, se altera a página da web — seja sua estrutura, estilo ou elementos. 
+                            Desse modo, o DOM possibilita a manipulação e modificação de elementos de um documento web ao conectar as linguagens de programação à página em questão. Ele é neutro em termos de linguagem, então pode ser executado com qualquer uma delas, ainda que seja mais popular utilizá-lo com o JavaScript.
+
+                            <br><br>
+
+                            Como toda página na web é um documento, os navegadores precisam fazer a leitura e a interpretação desses documentos para refletir seus conteúdos na tela do seu dispositivo num formato padrão. O DOM é a interface que representa a forma ou estrutura com que o documento será lido e exibido por todos os navegadores das redes.
+                            É assim que o DOM define um padrão na internet. Essa interface permite que programas e scripts de sites sejam acessados de forma dinâmica para fazer adições, remoções ou atualizações do conteúdo, estrutura e estilo de um documento. 
+                            O DOM define a estrutura lógica dos documentos em forma de árvore, a qual guia o navegador na representação e manipulação dos componentes da página.
+                        </p>
+
+                        <a href="https://www.hostinger.com.br/tutoriais/dom-o-que-e" target="_blank" class="link-respost" style="margin-bottom: 10px;">https://www.hostinger.com.br/tutoriais/dom-o-que-e</a>
+
+                        <h3 style="opacity: 0.8;">Descreva a função dos seguintes métodos de um documento: getElementById(), getElementsByTagName(), getElementsByClassName(), querySelector() e querySelectorAll().</h3>
+
+                        <h3 style="margin-top: 20px;">getElementById()</h3>
+                        <p class="respostas-p">
+                            Retorna um elemento de acordo com seu id.
+                            <br>
+                            <b><p style="font-family: 'Courier New', Courier, monospace; margin-top: -10px; margin-bottom: 20px;">document.getElementById('#id');</p></b>
+                        </p>
+
+                        <h3>getElementsByTagName()</h3>
+                        <p class="respostas-p">
+                            Retorna uma lista de elementos de acordo com a tag especificada.
+                            <br>
+                            <b><p style="font-family: 'Courier New', Courier, monospace; margin-top: -10px; margin-bottom: 20px;">document.getElementsByTagName(tag);</p></b>
+                        </p>
+
+                        <h3>getElementsByClassName()</h3>
+                        <p class="respostas-p">
+                            Retorna uma lista de elementos de acordo com a classe especificada.
+                            <br>
+                            <b><p style="font-family: 'Courier New', Courier, monospace; margin-top: -10px; margin-bottom: 20px;">document.getElementsByClassName('.name');</p></b>
+                        </p>
+
+                        <h3>querySelector()</h3>
+                        <p class="respostas-p">
+                            Retorna o primeiro elemento encontrado na página que corresponde ao seletor especificado.
+                            <br>
+                            <b><p style="font-family: 'Courier New', Courier, monospace; margin-top: -10px; margin-bottom: 20px;">document.querySelector('selector');</p></b>
+                        </p>
+
+                        <h3>querySelectorAll()</h3>
+                        <p class="respostas-p">
+                            Retorna uma lista com todos os elementos encontrados na página que correspondem ao seletor especificado.
+                            <br>
+                            <b><p style="font-family: 'Courier New', Courier, monospace; margin-top: -10px; margin-bottom: 20px;">document.querySelectorAll('selector')</p></b>
+                        </p>
+
+                        <div class="iframes-box" style="margin-top: 20px;">
+                            <iframe src="pages/exemplos-iframes/q4/exemplo-q4.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q4/exemplo-q4.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <a href="https://jesielviana.gitbook.io/guiaweb/7.-paginas-web-dinamicas-com-javascript" target="_blank" class="link-respost">https://jesielviana.gitbook.io/guiaweb/7.-paginas-web-dinamicas-com-javascript</a>
+                    </div>
+
+                    <!-- QUESTÃO 4 -->
+                    <div class="top-respostas-questoes"  id="quest4">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 4</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">Explique a diferença das propriedades innerHTML, innerText e textContent do Document Object Model.
+                        </h3>
+
+                        <h3 style="margin-top: 20px;">innerHTML</h3>
+                        <p class="respostas-p">
+                            Quando você usa a innerHTML propriedade, ela lê tanto a marcação HTML quanto o conteúdo de texto do elemento. Isso significa que quando você a usa para definir o conteúdo de elementos, você pode incluir tags HTML, e o navegador as renderizará corretamente.
+                        </p>
+
+                        <h3>innerTEXT</h3>
+                        <p class="respostas-p">
+                            Esta propriedade foca no conteúdo de texto renderizado. Quando você usa innerText para ler o conteúdo de um elemento, ele retorna o texto como ele aparece na tela. Ele ignora tags HTML. E também não inclui texto que está oculto com estilos CSS.
+
+                            <br><br>
+                            (Quando você precisa levar em conta estilos, você deve considerar usar innerText. Modificar o innerTextde um elemento significa que o navegador pode precisar ajustar o layout para acomodar as mudanças no tamanho do texto, o que pode ter implicações de desempenho.)
+                        </p>
+
+                        <h3>textContent</h3>
+                        <p class="respostas-p">
+                            A textContentpropriedade também ignora todas as tags HTML e retorna apenas o texto. Enquanto innerTextlê o texto como ele é renderizado na tela, textContentlê o texto como ele está na marcação. Ele também retorna todo o texto, seja ele renderizado na tela ou não.
+
+                            <br><br>
+
+                            Além disso, textContent lida apenas com o texto bruto e não considera estilos. Então, em situações em que o desempenho é uma preocupação e você não precisa considerar estilos, textContent pode ser uma escolha mais eficiente em comparação a innerText.
+
+                            <br><br>
+
+                            A innerHTML propriedade reconhece tags HTML e renderiza o conteúdo de acordo com as tags. innerText e textContent ignora tags HTML e as trata como parte do texto. 
+                            
+                            <br><br>
+
+                            Além disso, innerText lê o conteúdo como ele aparece na tela, ignora o conteúdo oculto e observa a formatação do texto. Mas textContent lê o conteúdo como ele aparece na marcação. Isso significa que ele lê o conteúdo oculto também. Mas ele também ignora a formatação como espaços em branco e quebras de linha quando você está usando o conteúdo definido.
+
+                        </p>
+
+                        <a href="https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/" target="_blank" class="link-respost">https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/</a>
+                    </div>
+
+                    <!-- QUESTÃO 5 -->
+                    <div class="top-respostas-questoes" id="quest5">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 5</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">De quais maneiras podemos inserir código JavaScript às páginas web? Explique cada uma delas.</h3>
+
+                        <h3 style="margin-top: 20px;">Adicionar de maneira direta (interna)</h3>
+                        <p class="respostas-p">
+                            primeiro jeito de adicionar JavaScript no HTML é mais direto. Você pode fazer isso usando a tag <script></script>, que deve abranger todo código JS que você escrever. O código JS pode ser adicionado:
+
+                            <br><br>
+                            Entre as tags <b>< head></b>
+                            Entre as tags <b>< body></b>
+                            <br>
+                            Dependendo de onde você adicionar o código JavaScript no arquivo HTML, o carregamento é diferente. A prática recomendada é inseri-lo na seção <b>< head></b>, pois ele ficará separado do conteúdo real do arquivo HTML.
+
+                            <br><br>
+                            Mas saiba que, colocá-lo na seção <b>< body></b> poderá melhorar a velocidade de carregamento, já que o conteúdo do site atual será carregado mais rapidamente, e somente então o JavaScript será analisado.
+                        </p>
+
+                        <h3>Adicionar em um arquivo separado (externo)</h3>
+                        <p class="respostas-p">
+                            Às vezes, inserir JavaScript no HTML de forma direta pode não parecer o melhor jeito de ligar uma linguagem à outra. Isso porque porque alguns scripts JS precisam ser usados em múltiplas páginas e, por isso, é melhor manter o código JavaScript em arquivos separados.
+                            
+                            <br><br>
+                            
+                            Por isso que um jeito mais aceitável de inserir JavaScript no HTML é pela importação externa de um arquivo. Esses arquivos podem ser referenciados de dentro de documentos HTML, assim como referenciamos documentos CSS.
+                            
+                            <br><br>
+                            
+                            Alguns dos benefícios de adicionar um código JS em arquivos separados são:
+                            
+                            Quando o código HTML e o código JavaScript são separados, o princípio de design da separação de interesses é cumprido e torna tudo muito mais sustentável e reutilizável.
+                            
+                            <br><br>
+
+                            A leitura e a manutenção do código ficam muito mais fáceis de se fazer.
+
+                            <br><br>
+                            
+                            Arquivos JavaScript em cache melhoram o desempenho geral de um site ao diminuir o tempo que as páginas carregam.
+                        </p>
+                        
+                        <h3>Adicionar Javascript inline</h3>
+                        <p class="respostas-p">
+                            O código Javascript é colocado diretamente dentro do elemento HTML.
+
+                            <br>
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <b style="font-family: Poppins, Roboto, sans-serif;">Exemplo:</b> 
+                                <p style="font-family: 'Courier New', Courier, monospace; color: rgb(0, 0, 0, 0.8); text-shadow: 0px 0px 2px black;" class="q5-p">< button onclick="alert('Oi')">Clique!< /button></p> 
+                            </div>
+                        </p>
+
+                        <a href="https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html" target="_blank" class="link-respost">https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html</a>
+                        <a href="https://jesielviana.gitbook.io/guiaweb/7.-paginas-web-dinamicas-com-javascript" target="_blank" class="link-respost" style="margin-top: 0;">https://jesielviana.gitbook.io/guiaweb/7.-paginas-web-dinamicas-com-javascript</a>
+                    </div>
+
+                    <!-- QUESTÃO 6 -->
+                    <div class="top-respostas-questoes" id="quest6">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 6</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">O que são eventos HTML? Cite pelo menos 5 exemplos de evento HTML e explique
+                            quando eles são disparados. Como um evento HTML pode ser utilizado pelo JavaScript para realizar
+                            uma determinada tarefa?</h3>
+
+                        <h3 style="margin-top: 20px;">O que são eventos HTML</h3>
+                        <p class="respostas-p">
+                            Usando uma analogia bem simples:
+                            Ao apertar o botão de ligar, no controle da sua TV, é enviado para o aparelho um comando para que a imagem apareça na tela.
+                            Assim, você apertou o botão e uma ação foi disparada para ser executada pela televisão.
+                            No JavaScript, funciona exatamente desta forma!
+                            Os eventos nada mais são do que ações que deverão ser disparadas quando acontecer alguma coisa pré-definida na página.
+                            Em analogia com o controle remoto da TV, clicar no botão é um evento!
+                            Existem outros tipos de eventos, além de clicar no botão, vamos ver sobre eles daqui a pouco!
+                        </p>
+
+                        <h3 style="opacity: 0.8; margin-bottom: 15px;">5 exemplos de evento HTML</h3>
+
+                        <h3>1. Evento JavaScript onClick</h3>
+                        <p class="respostas-p">
+                            O evento <strong>onClick</strong> é disparado quando um elemento é <b>clicado uma vez</b> pelo usuário.
+
+                            <br><br>
+                            Exemplo: o usuário clicou uma vez em uma div.  
+                        </p>
+
+                        <h3>2. Evento JavaScript onKeyDown</h3>
+                        <p class="respostas-p">
+                            O evento é disparado quando o usuário <b>pressiona uma tecla do teclado</b>, estando com o foco naquele elemento.
+
+                            <br><br>
+                            <b>Exemplo:</b> o usuário, estando com um input com foco, pressionou a tecla "A" do teclado.
+                        </p>
+
+                        <h3>3. Evento JavaScript onMouseOver</h3>
+                        <p class="respostas-p">
+                            O evento <strong>onMouseOver</strong> é disparado quando o usuário passa o mouse sobre o elemento.
+
+                            <br><br>
+                            <b>Exemplo:</b> o usuário passa o mouse sobre um botão.
+                        </p>
+
+                        <h3>4. Evento JavaScript onChange</h3>
+                        <p class="respostas-p">
+                            O evento <strong>onChange</strong> é disparado quando o <b>valor de um elemento é alterado.</b>
+
+                            <br><br>
+                            <b>Exemplo:</b> o usuário altera o texto de um input.
+                        </p>
+
+                        <h3>5. Evento JavaScript onLoad</h3>
+                        <p class="respostas-p">
+                            O evento <strong>onLoad</strong> é disparado quando o <b>elemento é carregado na página</b>.
+
+                            <br><br>
+                            <b>Exemplo:</b> o input é totalmente carregado na página.
+                        </p>
+
+                        <h3>Como um evento HTML pode ser utilizado pelo JavaScript para realizar uma determinada tarefa?</h3>
+                        <p class="respostas-p">
+                            Podemos utilizar um evento, por exemplo, para notificar ou mostrar um alerta na tela, ao clicar em um botão. 
+                            
+                            <br>
+                            Para usar um evento JavaScript é muito simples, basta que você adicione o atributo da tag, com o evento correspondente e, no valor do atributo, colocar o que deve acontecer quando o evento for disparado.
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q6/exemplo-q6.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q6/exemplo-q6.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <a href="https://wallky.com.br/tech/blog/o-que-sao-eventos-javascript-js.php" target="_blank" class="link-respost">https://wallky.com.br/tech/blog/o-que-sao-eventos-javascript-js.php</a>
+                    </div>
+
+                    <!-- QUESTÃO 7 -->
+                    <div class="top-respostas-questoes" id="quest7">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 7</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">Pode-se afirmar que a linguagem <i>JavaScript é orientada a eventos e de tipagem
+                            dinâmica</i>. Explique o que esses conceitos querem dizer e apresente as formas em que uma variável
+                            pode ser criada em JavaScript.</h3>
+
+                        <p class="respostas-p" style="margin-top: 20px;">
+                            No JavaScript, eventos podem ser usados para responder a interações do usuário ou mudanças no sistema. Ao mesmo tempo, a tipagem dinâmica permite que as variáveis sejam manipuladas de forma flexível, sem a necessidade de declarar tipos rígidos. Isso cria uma poderosa combinação, especialmente em situações interativas e dinâmicas, como a manipulação de eventos com diferentes tipos de dados.
+
+                            <br><br>
+                            <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Event" target="_blank" class="link-respost" style="margin-top: -5px;">https://developer.mozilla.org/pt-BR/docs/Web/API/Event</a>
+                            <a href="https://www.w3schools.com/dsa/dsa_ref_dynamic_programming.php" target="_blank" class="link-respost" style="margin-top: 0;">https://www.w3schools.com/dsa/dsa_ref_dynamic_programming.php</a>
+
+
+                            <br><br>
+                            Em JavaScript podemos declarar variáveis de duas formas atualmente, com let ou var, sendo let a forma recomendada. let permite declarar variáveis que existem apenas no escopo no qual desejamos utilizá-las. Esse comportamento é diferente quando utilizamos var, que cria variáveis globais e que podem ser acessadas em qualquer local no arquivo ou função onde foram declaradas.
+
+                            <br><br>
+
+                            <p class="respostas-p">
+                                <b style="font-size: 25px; font-family: 'Courier New', Courier, monospace; color: blueviolet; padding: 0px 5px 0px 5px; background-color: rgb(0, 0, 0, 0.05);">let | var [ identificador ] [ = valor | expressão ]</b>
+
+                                <br><br>
+                                <b>Identificador:</b> nome da variável;
+                                <br>
+                                <b>Valor:</b> valor inicial da variável, que pode ser o resultado de uma expressão (opcional).
+                            </p>
+                        </p>
+
+                        <a href="https://www.devmedia.com.br/javascript-variaveis-e-constantes/41012" target="_blank" class="link-respost">https://www.devmedia.com.br/javascript-variaveis-e-constantes/41012</a>
+                    </div>
+
+                    <!-- QUESTÃO 8 -->
+                    <div class="top-respostas-questoes" id="quest8">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 8</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">No contexto de escopo de variáveis, explique os conceitos de escopo global e local.
+                            Como criar variáveis de escopo global e local em JavaScript?</h3>
+                            
+                            <p class="respostas-p">
+                                O escopo é um conceito fundamental do JavaScript e de outras linguagens de programação que define o contexto em que as variáveis são acessadas e usadas. Ela se torna mais útil e aplicável ao código à medida que você aprende mais sobre JavaScript e trabalha mais com variáveis.
+                                <br><br>
+
+                                O escopo pode ajudar você a:
+                                <br>
+
+                                <b>Usar a memória com mais eficiência:</b> o escopo permite carregar variáveis somente quando necessário. Se uma variável estiver fora do escopo, ela não precisa ser disponibilizada para o código em execução.
+
+                                <br><br>
+
+                                <b>Encontre e corrija bugs com mais facilidade:</b> isolar variáveis com escopo local facilita a solução de bugs no seu código porque, ao contrário das variáveis globais, você pode confiar que o código de um escopo externo não pode manipular variáveis com escopo local.
+
+                                <br><br>
+
+                                <b>Crie pequenos blocos de código reutilizável:</b> por exemplo, é possível escrever uma função pura que não depende de um escopo externo. Você pode facilmente mover essa função para outro lugar com alterações mínimas.
+                            </p>
+
+                        <h3 style="margin-top: 20px;">Escopo global</h3>
+                        <p class="respostas-p">
+                            É possível acessar variáveis com escopo global de qualquer lugar no programa.
+
+                            <br><br>
+                            Considere um arquivo HTML que importa dois arquivos JavaScript: <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">file-1.js</b> e <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">file-2.js</b>:
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q8/exemplo-q8-2.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q8/exemplo-q8-3.js" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <p class="respostas-p">
+                            Neste exemplo, a variável <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">globalMessage</b> tem um escopo global e é escrita fora de uma função. Durante a execução, é possível acessar o valor da variável <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">globalMessage</b> de qualquer lugar no programa JavaScript.
+
+                            <br><br>
+                            Confira o conteúdo dos arquivos <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">file-1.js</b> e <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">file-2.js</b> neste snippet de código. Observe a disponibilidade da variável <b style="font-family: 'Courier New', Courier, monospace; background-color: #eae8e8; padding: 0px 5px 0px 5px;">globalMessage</b> nos dois arquivos.
+                        </p>
+
+                        <h3>Escopo local</h3>
+                        <p class="respostas-p">
+                            Quando você cria variáveis em uma função JavaScript com as palavras-chave var, let ou const, as variáveis são locais em relação à função. Assim, elas só podem ser acessadas dentro da função. As variáveis locais são criadas quando uma função é iniciada e são efetivamente excluídas quando a execução da função termina.
+
+                            <br><br>
+
+                            Este exemplo declara a variável <b style="font-family: 'Courier New', Courier, monospace; color: blueviolet;">total</b> na função <b style="font-family: 'Courier New', Courier, monospace; color: rgb(251, 0, 255);">addNumbers()</b>. Só é possível acessar as variáveis <b style="font-family: 'Courier New', Courier, monospace; color: blueviolet;">a</b>, <b style="font-family: 'Courier New', Courier, monospace; color: blueviolet;">b</b>, e total na função <b style="font-family: 'Courier New', Courier, monospace; color: rgb(251, 0, 255);">addNumbers()</b>.
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q8/exemplo-q8.js" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>                        
+
+                        <a href="https://web.dev/articles/global-and-local-scope?hl=pt-br" target="_blank" class="link-respost">https://web.dev/articles/global-and-local-scope?hl=pt-br</a>
+                    </div>
+
+                    <!-- QUESTÃO 9 -->
+                    <div class="top-respostas-questoes" id="quest9">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 9</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">Como podemos criar funções JavaScript em nossas páginas web? O que é uma função
+                            autoexecutável em JavaScript? Como podemos cria-la e quando ela é executada?</h3>
+                            
+                            <p class="respostas-p" style="margin-top: 20px;">
+                                Funções em JavaScript são blocos de código que realizam uma tarefa específica. Elas são como robôs programados para realizar ações. Você cria a função uma vez e depois pode chamá-la sempre que precisar. Isso torna o código mais organizado, além de evitar repetição desnecessária.
+                            </p>
+
+                            <div class="iframes-box">
+                                <iframe src="pages/exemplos-iframes/q9/exemplo-q9.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                                <iframe src="pages/exemplos-iframes/q9/exemplo-q9.html" frameborder="0" class="exemplos-iframe"></iframe>
+                            </div>
+
+                        <h3 style="margin-top: 20px;">Como podemos criar funções JavaScript em nossas páginas web?</h3>
+                        <p class="respostas-p">
+                            * Existem vários tipos de função e criação de fução, como: <b>funções anônimas, arrow functions, funções de alta ordem, callback funções, Funções imediatamente invocadas (IIFE),</b> etc. 
+                            <br>
+                            A forma mais comum de criar uma função é usando a palavra-chave function:
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q9/exemplo-q9-2.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q9/exemplo-q9-2.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <p class="respostas-p">
+                            Aqui, <b style="color: blue; font-family: 'Courier New', Courier, monospace;">somar</b> é o nome da função, <i style="color: rgb(251, 0, 255); font-family: 'Courier New', Courier, monospace; font-weight: 900;">a</i> e <i style="color: rgb(251, 0, 255); font-family: 'Courier New', Courier, monospace; font-weight: 900;">b</i> são os parâmetros (valores que a função vai receber) e <b style="color: blue; font-family: 'Courier New', Courier, monospace;">return</b> devolve o resultado da soma.
+
+                            <br><br>
+                            
+                            No JavaScript, as funções são tratadas como "primeira classe", ou seja, podem ser passadas como argumentos ou retornadas por outras funções. Funções que fazem isso são chamadas de <b>funções de alta ordem</b>. Elas são extremamente poderosas, pois permitem criar um código mais flexível e dinâmico.
+                        </p>
+
+                        <h3>Uma função autoexecutável em JavaScript?</h3>
+                        <p class="respostas-p">
+                            As <b>IIFE (Immediately Invoked Function Expressions)</b>, ou funções autoexecutáveis invocadas, são funções em JavaScript que são executadas assim que são definidas. Elas são bastante úteis quando você quer criar um escopo isolado para seu código, evitando que variáveis definidas dentro da função "vazem" para o escopo global. As variáveis definidas dentro de uma IIFE não interferem nas variáveis fora dela, ajudando a manter o código mais organizado e livre de conflitos. 
+                            <br>
+                            Além de que, se você precisa executar algum código assim que ele for carregado ou processado (como configurações ou inicializações), a IIFE é uma boa opção.
+
+                            <br><br>
+
+                            A sintaxe de uma IIFE envolve declarar uma função e, logo em seguida, invocá-la com <b style="color: rgb(251, 0, 255); font-family: 'Courier New', Courier, monospace;">(  )</b>:
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q9/exemplo-q9-3.js" frameborder="0" class="exemplos-iframe"></iframe>
+                            <p style="font-family: Poppins, Roboto, sans-serif; color: white; width: 50%; background-color: #659db5; border-radius: 20px; padding: 10px; text-align: justify;">Neste exemplo, a função é definida e imediatamente executada. Isso pode ser útil em vários cenários, como ao encapsular código para não poluir o escopo global, especialmente em projetos grandes ou quando você está lidando com bibliotecas de terceiros.</p>
+                        </div>
+
+                        <a href="https://www.rocketseat.com.br/blog/artigos/post/funcoes-em-javascript-guia-completo#0923585197004b4293c5afa014ad6517" target="_blank" class="link-respost">https://www.rocketseat.com.br/blog/artigos/post/funcoes-em-javascript-guia-completo#0923585197004b4293c5afa014ad6517</a>
+                    </div>
+
+                    <!-- QUESTÃO 10 -->
+                    <div class="top-respostas-questoes" id="quest10">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 10</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">Como é possível estilizar elementos de uma páginas web de forma dinâmica utilizando
+                            JavaScript? Apresente exemplos.</h3>
+
+                        <p class="respostas-p" style="margin-top: 20px;">
+                            A API do DOM disponibiliza algumas propriedades para manipulação do estilo CSS dos elementos HTML. As propriedades mais utilizadas são style ( element.style) e classList( element.classList) , todo elemento HTML possui essas propriedades.
+
+                            <br><br>
+                            
+                            Usando a propriedade style do elemento HTML é possível definir propriedades CSS embutidas ( CSS inline ) para o elemento HTML.
+                            
+                            <br><br>
+                            
+                            A propriedade style retorna o objeto CSSStyleDeclaration somente de leitura que contém uma lista de propriedades CSS. Por exemplo, para alterar a cor da fonte de um elemento é o seguinte código: elemento.style.color = "novaCor", para alterar o tamanho da fonte: elemento.style.fontSize = "novoTamanho", etc. Se a propriedade CSS contém hífens (-) por exemplo font-size, você pode remover o hífen e usar o padrão camel-case conforme o exemplo anterior.
+                            
+                            <br><br>
+
+                            Vejamos um exemplo de como alterar a cor da fonte de um elemento dinamicamente de acordo com a ação do usuário. No exemplo abaixo a página HTML possui um elemento de título (< h1>) e dois elementos de botões ( < button>), o usuário pode clicar nos botões para definir um cor para o texto do título.
+
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <p class="respostas-p">
+                            Já por meio da propriedade classList é possível manipular as classes CSS do elemento: listar, remover e adicionar novas classes.
+
+                            <br><br>
+                            A classListé uma propriedade somente leitura de um elemento que retorna uma coleção ativa de classes CSS. Essa propriedade dispõe de vários métodos para manipulação das classes.
+
+                            <br><br>
+                            Para adicionar uma ou mais classes CSS à lista de classes de um elemento, use o método add()classList. Por exemplo, o código a seguir adiciona a classe "verde"ao elemento < h1>com o id titulo:
+
+                        </p>
+                        
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10-2.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10-2.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <p class="respostas-p">
+                            Para remover uma classe CSS da lista de classes de um elemento, use o método remove(). O exemplo a seguir remove a classe verde do elemento < h1> com o id titulo:
+
+                            <br><br>
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10-3.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10-3.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <p class="respostas-p">
+                            É comum a implementação de CSS para alternância de elementos HTML, tais como mostrar e ocultar um elemento dependendo de alguma ação do usuário. Para isso podemos usar o método toggle()da propriedade classList, que tem o seguinte comportamento: Se o elemento contiver uma classe especificada no método toggle(), ele o removerá. Se o elemento não contiver a classe, o método toggle()ou adicionará ao elemento.
+
+                            <br><br>
+                            Vamos implementar o exemplo da alternância de cor do texto do título utilizando o método toggle()da propriedade classList. Para isso, vamos adicionar as classes CSS no mesmo arquivo HTML ( index.html).
+
+                            <br><br>
+                        </p>
+
+                        <div class="iframes-box">
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10-4.txt" frameborder="0" class="exemplos-iframe"></iframe>
+                            <iframe src="pages/exemplos-iframes/q10/exemplo-q10-4.html" frameborder="0" class="exemplos-iframe"></iframe>
+                        </div>
+
+                        <a href="https://jesielviana.gitbook.io/guiaweb/7.-paginas-web-dinamicas-com-javascript" target="_blank" class="link-respost">https://jesielviana.gitbook.io/guiaweb/7.-paginas-web-dinamicas-com-javascript</a>
+                    </div>
+
+                    <!-- QUESTÃO 11 -->
+                    <div class="top-respostas-questoes" id="quest11">
+                        <img onclick="clickRespostas" src="assets/images/icons/arrow-icon.svg" alt="arrow-icon" class="arrow-icon" id="arrow">
+                        <h3 class="que-h3">Questão 11</h3>
+                    </div>
+                    <div class="respostas-div">
+                        <h3 style="opacity: 0.8;">O que é o Browser Object Model? O que ele permite que realizar em uma página web
+                            por meio de código JavaScript?</h3>
+
+                        <p class="respostas-p" style="margin-top: 20px;">
+                            <strong>O Browser Object Model (BOM) é uma API (Application Programming Interface) que permite aos desenvolvedores interagir com os elementos da janela do navegador. Ele fornece uma maneira de acessar e manipular as propriedades e métodos dos objetos do navegador, como janelas, frames, histórico de navegação, cookies e muito mais.</strong>
+
+                            <br><br>
+
+                            O BOM é uma parte integrante da estrutura de um navegador da web e é implementado por meio de objetos JavaScript. Cada objeto representa um elemento específico da janela do navegador e possui suas próprias propriedades e métodos. Os desenvolvedores podem usar esses objetos para acessar e manipular as funcionalidades do navegador.
+
+                            <br><br>
+
+                            Os desenvolvedores podem manipular o BOM usando JavaScript. Eles podem acessar os objetos do BOM usando a notação de ponto ou colchetes e, em seguida, usar as propriedades e métodos desses objetos para realizar várias tarefas.
+
+                            <br><br>
+
+                            Por exemplo, para abrir uma nova janela do navegador, os desenvolvedores podem usar o método window.open() do objeto Window. Para redirecionar o navegador para uma nova URL, eles podem usar o método location.href do objeto Location. A compatibilidade do BOM varia entre os navegadores. Alguns navegadores podem oferecer suporte a recursos adicionais ou ter implementações ligeiramente diferentes dos objetos do BOM.
+                        </p>
+
+                        <a href="https://napoleon.com.br/glossario/o-que-e-browser-object-model/#:~:text=O%20Browser%20Object%20Model%20%C3%A9,navega%C3%A7%C3%A3o%2C%20cookies%20e%20muito%20mais." target="_blank" class="link-respost" style="text-align: right; margin-top: 0px; margin-bottom: 15px;">https://napoleon.com.br/glossario/o-que-e-browser-object-model/#:~:text=O%20Browser%20Object%20Model%20%C3%A9,navega%C3%A7%C3%A3o%2C%20cookies%20e%20muito%20mais.</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="api-geo">
+            <article class="local-geo-content">
+                <h1>Sua localização</h1>
+                <h2 id="loc"></h2>
+                <div class="copie-container">
+                    <a href="https://www.google.com/maps" target="_blank" class="geo-ahref">
+                        Veja no Google Maps <img src="assets/images/icons/external-link-icon.svg" alt="external-link-icon" class="external-link-icon">
+                    </a>
+                    <div class="copie-tooltip">
+                        <p class="p-copie">Copie: </p>
+                        <p id="copyP"></p>
+                        <img src="assets/images/icons/copy-icon.svg" alt="copy-icon" id="message">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="me-git">
+            <img src="assets/images/icons/github-icon.svg" alt="github-icon">
+            <a href="https://github.com/MisaelTRBIFRN" target="_blank">MisaelTRBIFRN</a>
+        </div>
+        <p> | INFO 1V - Misael Barbosa da Silva | IFRN - Campus Nova Cruz | Autoria Web</p>
+    </footer>
+
+    <script src="assets/scripts/api-geo.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    
+</body>
+</html>
